@@ -144,7 +144,7 @@ public class ShopRecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
                     if (item.getValue() == 1) {
                         currencyString = context.getString(R.string.gold_singular);
                     } else {
-                        currencyString = context.getString(R.string.gems_plural);
+                        currencyString = context.getString(R.string.gold_plurar);
                     }
                 } else if (item.getCurrency().equals("hourglasses")) {
                     if (item.getValue() == 1) {
@@ -230,6 +230,6 @@ public class ShopRecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
             ButterKnife.bind(this, itemView);
             descriptionView.setMovementMethod(LinkMovementMethod.getInstance());
         }
-        
+
     }
 }

@@ -351,7 +351,7 @@
   <string name="hourglass">砂時計</string>
   <string name="hourglasses">砂時計</string>
   <string name="gold_singular">ゴールド</string>
-  <string name="gems_plural">ゴールド</string>
+  <string name="gold_plurar">ゴールド</string>
   <string name="chat_message_copied">クリップボードにコピーされたメッセージ</string>
   <string name="copy_chat_message">クリップボードにコピー</string>
 </resources>
